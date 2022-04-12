@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<center>
+    <h1> Collage Web App </h1>
+    <hr>
+    <h4>As soon as the popup appears, please click allow. After you have spoken a command.</h4>
+    <h3>Click start to take a photo. Then your photo will be updated on the collage below.</h3>
+    <button id="start" class="btn btn-info" onclick="save()">Start</button>
+    <h4>Press the button "Start"</h4>
+    <label>The following section is a camera</label>
+    <div id="camera"></div>
+    <label>All selfies will be displayed here:</label>
+    <div id="resultShow">
+        <div id="result1">
+            <img src="PINK_AESTHETIC.jpg" style="width: 30%;">
+        </div>
+
+        <div id="result2">
+            <img src="TROPICAL_AESTHETIC.jpg" style="width: 30%;">
+        </div>
+
+        <div id="result3">
+            <img src="PARIS_AESTHETIC.jpg" style="width: 30%;">
+        </div>
+    </div>
+</center>
+</body>
+
+</html>
